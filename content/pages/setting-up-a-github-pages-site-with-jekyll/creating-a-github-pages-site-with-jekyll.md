@@ -75,7 +75,7 @@ Before you can use Jekyll to create a {% data variables.product.prodname_pages %
  ```
 1. To create a new Jekyll site, use the `jekyll new` command:
    ```shell
-   $ jekyll new --skip-bundle .
+   $ jekyll new . --skip-bundle .
    # Creates a Jekyll site in the current directory
    ```
 1. Open the Gemfile that Jekyll created.
